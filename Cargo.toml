@@ -1,0 +1,11 @@
+[package]
+name = "plonky3-risc0"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+p3-field = { git = "https://github.com/Plonky3/Plonky3.git" }
+p3-koala-bear = { git = "https://github.com/Plonky3/Plonky3.git" }
+p3-symmetric = { git = "https://github.com/Plonky3/Plonky3.git" }
+num-bigint = "0.4"
+rand = "0.9"
