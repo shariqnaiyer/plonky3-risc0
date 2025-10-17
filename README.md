@@ -1,6 +1,10 @@
 ## Instructions
 
 ```bash
+curl -L https://risczero.com/install | bash
+rzup install
+rzup install rust 1.88.0
+rustup default risc0
 cargo build --target=riscv32im-risc0-zkvm-elf
 ```
 
